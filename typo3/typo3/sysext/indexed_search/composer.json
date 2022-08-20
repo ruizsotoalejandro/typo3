@@ -1,0 +1,43 @@
+{
+	"name": "typo3/cms-indexed-search",
+	"type": "typo3-cms-framework",
+	"description": "Indexed Search Engine for TYPO3 pages, PDF-files, Word-files, HTML and text files. Provides a backend module for statistics of the indexer and a frontend plugin.",
+	"homepage": "https://typo3.org",
+	"license": ["GPL-2.0-or-later"],
+	"authors": [{
+		"name": "TYPO3 Core Team",
+		"email": "typo3cms@typo3.org",
+		"role": "Developer"
+	}],
+	"support": {
+		"chat": "https://typo3.org/help",
+		"docs": "https://docs.typo3.org/c/typo3/cms-indexed-search/11.5/en-us",
+		"issues": "https://forge.typo3.org",
+		"source": "https://github.com/typo3/typo3"
+	},
+	"config": {
+		"sort-packages": true
+	},
+	"require": {
+		"typo3/cms-core": "11.5.14"
+	},
+	"conflict": {
+		"typo3/cms": "*"
+	},
+	"suggest": {
+		"typo3/cms-scheduler": "For garbage collection of search statistics"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "11.5.x-dev"
+		},
+		"typo3/cms": {
+			"extension-key": "indexed_search"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"TYPO3\\CMS\\IndexedSearch\\": "Classes/"
+		}
+	}
+}
