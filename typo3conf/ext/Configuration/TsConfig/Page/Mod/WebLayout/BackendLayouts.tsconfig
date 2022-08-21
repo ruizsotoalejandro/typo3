@@ -1,0 +1,4 @@
+#
+# BACKENDLAYOUTS
+#
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:alejandro_demo_seite/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts" extensions="tsconfig">

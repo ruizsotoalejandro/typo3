@@ -1,0 +1,18 @@
+{
+  "name": "ars-alejandro-demo-seite",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruizsotoalejandro/typo3"
+  },
+  "homepage": "https://github.com/ruizsotoalejandro/typo3",
+  "author": "Alejandro Ruiz",
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-contrib-imagemin": "^2.0.1"
+  }
+}

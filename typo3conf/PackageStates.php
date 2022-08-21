@@ -92,6 +92,12 @@ return [
         'viewpage' => [
             'packagePath' => 'typo3/sysext/viewpage/',
         ],
+        'bootstrap_package' => [
+            'packagePath' => 'typo3conf/ext/bootstrap_package/',
+        ],
+        'alejandro_demo_seite' => [
+            'packagePath' => 'typo3conf/ext/alejandro_demo_seite/',
+        ],
     ],
     'version' => 5,
 ];

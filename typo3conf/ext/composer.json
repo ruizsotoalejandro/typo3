@@ -1,0 +1,21 @@
+{
+    "name": "ars/alejandro-demo-seite",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "homepage": "https://github.com/ruizsotoalejandro/typo3",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "bk2k/bootstrap-package": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ars\\AlejandroDemoSeite\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "alejandro_demo_seite"
+        }
+    }
+}
